@@ -73,7 +73,7 @@ calculator-app/
 
 ### Clone & Install Dependencies
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/acculloko/go-react-calculator-app.git
 cd calculator-app
 
 # Install Frontend Dependencies
