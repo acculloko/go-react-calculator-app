@@ -1,0 +1,33 @@
+{
+  "name": "calculator-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "~5.4.5"
+  },
+  "overrides": {
+    "typescript": "$typescript"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false",
+    "test:coverage": "react-scripts test --watchAll=false --coverage --collectCoverageFrom=\"src/**/*.{ts,tsx}\" --collectCoverageFrom=\"!src/index.tsx\" --collectCoverageFrom=\"!src/react-app-env.d.ts\" --collectCoverageFrom=\"!src/types/**\""
+  },
+  "proxy": "http://localhost:8080",
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}
